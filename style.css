@@ -1,0 +1,52 @@
+.firstsection{
+    background: #E37151;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    display: block;
+    line-height: 23px;
+}
+.container{
+    margin: 100px auto;
+    width: 80%;
+    max-width: 700px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.container > h2{
+    margin-top: 16px 0 15px 0;
+    font-size: 34px;
+    line-height: 30px;
+    font-weight: 800;
+    padding: 0;
+}
+.container > p{
+    font-size: 17px;
+    line-height: 20px;
+    padding-top: .25em 0 .25em 0;
+}
+button.add-duck{
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0.8;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.container-image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 73%;
+    overflow: hidden;
+    width: 100%;
+}
