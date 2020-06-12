@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+section{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    margin: auto;
+    max-width: 850px;
+}
+
+/*purple*/
+#purple, #blue{
+    padding-top: 70px;
+}
+#purple{
+    width: 100%;
+    height: 890px;
+    background-color: purple;
+    color:white;
+    }
+#purple h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+#purple p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#purple #button1{
+    margin-left: 200px;
+    background-color: rgb(123, 132, 172);
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#purple #button1:hover{
+    background-color: rgb(39, 48, 66);
+}
+#purple #pic1{
+    width: 800px;
+    margin-bottom: -380px;
+}
+
+
+/*blue*/
+#blue{
+    width: 100%;
+    height: 860px;
+    background-color: lightblue;
+    color:white;
+}
+#blue h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(62, 69, 87);
+}
+#blue p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: rgb(62, 69, 87);
+   }
+#blue #button2{
+    margin-left: 200px;
+    background-color: rgb(62, 69, 87);
+    color: white;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#blue #button2:hover{
+    background-color: rgb(78, 88, 119);
+}
+#blue #pic2{
+    width: 800px;
+    margin-bottom: -360px;
+}
+#asideButton{
+    float: right;
+    padding: 20px;
+}
+#asideButton a{
+    text-decoration: none;
+    color: black;
+}
+#first{
+    font-weight: normal;
+    opacity: 0.5;
+}
