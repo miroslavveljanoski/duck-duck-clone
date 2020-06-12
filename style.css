@@ -1,0 +1,81 @@
+.secondsection{
+    background: #f5a339;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    display: block;
+    line-height: 23px;
+}
+.containersecondsection{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+.containersecondsection > h2{
+    margin-top: 0 0 15px 0;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 800;
+    padding: 0;
+}
+
+.containersecondsection > p{
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: .25em 0 .25em 0;
+}
+
+button.add-ghost{
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0.8;
+    color: #fff;
+    border: none;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.second-sectionimage{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 73%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/*button.add-ghost{
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0.8;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    cursor: pointer;
+    padding: 11px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.second-sectionimage{
+    max-width: 90%;
+    max-height: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   
+}*/
